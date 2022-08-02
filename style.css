@@ -13,3 +13,7 @@
 #Tabs > a {
   min-width: 3.5em;
 }
+
+#Main > div:nth-child(2) > div[style*="background"] {
+  display: none;
+}
