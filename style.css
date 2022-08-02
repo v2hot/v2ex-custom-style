@@ -14,6 +14,7 @@
   min-width: 3.5em;
 }
 
+/* Hide pinned topics */
 #Main > div:nth-child(2) > div[style*="background"] {
   display: none;
 }
