@@ -1,6 +1,6 @@
 /* 主题列表头像 */
-#Main > div:nth-child(2) > div > table > tbody > tr > td:nth-child(1),
-#Main > div:nth-child(2) > div > table > tbody > tr > td:nth-child(2) {
+#Main > div:nth-child(2) > div.item > table > tbody > tr > td:nth-child(1),
+#Main > div:nth-child(2) > div.item > table > tbody > tr > td:nth-child(2) {
   display: none;
 }
 
