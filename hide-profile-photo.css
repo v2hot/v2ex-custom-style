@@ -1,0 +1,17 @@
+/* 主题列表头像 */
+#Main > div:nth-child(2) > div > table > tbody > tr > td:nth-child(1),
+#Main > div:nth-child(2) > div > table > tbody > tr > td:nth-child(2) {
+  display: none;
+}
+
+/* 右侧列表头像 */
+#my-recent-topics table > tbody > tr > td:nth-child(1),
+#TopicsHot table > tbody > tr > td:nth-child(1) {
+  display: none;
+}
+
+/* 评论区头像 */
+#Main .normalUser > table > tbody > tr > td:nth-child(1),
+#Main .keyUser > table > tbody > tr > td:nth-child(1) {
+  display: none;
+}
