@@ -1,0 +1,12 @@
+#Top {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+#Tabs {
+  position: sticky;
+  top: 52px;
+  border-top: 1px solid var(--box-border-color);
+  box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+}
