@@ -1,4 +1,4 @@
-# v2ex-custom-style
+# v2ex-custom-style ![GitHub release (latest by date)](https://img.shields.io/github/v/release/v2hot/v2ex-custom-style?style=flat-square)
 
 V2EX 自定义样式 🌈
 
@@ -9,7 +9,7 @@ V2EX 自定义样式 🌈
 ![v2ex-settings](assets/v2ex-settings.png)
 ![stylish](assets/stylish.png)
 
-⚠️ 注意：下面 URL 的 `VERSION` 要改成最新或指定的[版本](https://github.com/v2hot/v2ex-custom-style/releases)。
+⚠️ 注意：下面 URL 的 `VERSION` 要改成最新或指定的[版本](https://github.com/v2hot/v2ex-custom-style/releases)。![GitHub release (latest by date)](https://img.shields.io/github/v/release/v2hot/v2ex-custom-style?style=flat-square)
 
 例如：`latest`, `1.0.0`, `1.0.1` 等。
 
@@ -64,3 +64,15 @@ V2EX 自定义样式 🌈
 ```css
 @import "https://cdn.jsdelivr.net/gh/v2hot/v2ex-custom-style@VERSION/hide-custom.css";
 ```
+
+## Related
+
+- [v2ex 知乎主题](https://github.com/viewweiwu/v2ex-zhihu-theme) [https://www.v2ex.com/t/822425](https://www.v2ex.com/t/822425)
+- [v2ex qiita theme (绿色主题)](https://github.com/viewweiwu/v2ex-qiita-theme) [https://www.v2ex.com/t/864473](https://www.v2ex.com/t/864473)
+- [V2EX 仿微信风格 CSS](https://github.com/CrazyMelody/v2ex_style) [https://www.v2ex.com/t/851399](https://www.v2ex.com/t/851399)
+
+## >\_
+
+[![Pipecraft](https://img.shields.io/badge/site-pipecraft-brightgreen)](https://www.pipecraft.net)
+[![DTO](https://img.shields.io/badge/site-DTO-brightgreen)](https://dto.pipecraft.net)
+[![BestXTools](https://img.shields.io/badge/site-bestxtools-brightgreen)](https://www.bestxtools.com)
