@@ -1,14 +1,19 @@
 # v2ex-custom-style
 
-V2EX 自定义样式。
+V2EX 自定义样式 🌈
 
 ## Usage
 
-⚠️ 注意：下面 URL 的 `VERSION` 要改成最新或想要的[版本](https://github.com/v2hot/v2ex-custom-style/releases)。
+把下面 CSS 代码，放到 [**v2ex > 设置 > 自定义 CSS**](https://www.v2ex.com/settings) 或 [**stylish**](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe) 里面即可。
 
-比如：`latest`, `1.0.0`, `1.0.1` 等。
+![v2ex-settings](assets/v2ex-settings.png)
+![stylish](assets/stylish.png)
 
-### 按需加载
+⚠️ 注意：下面 URL 的 `VERSION` 要改成最新或指定的[版本](https://github.com/v2hot/v2ex-custom-style/releases)。
+
+例如：`latest`, `1.0.0`, `1.0.1` 等。
+
+### 按需加载 CSS 文件
 
 #### 节点显示增强
 
@@ -46,4 +51,16 @@ V2EX 自定义样式。
 
 ```css
 @import "https://cdn.jsdelivr.net/gh/v2hot/v2ex-custom-style@VERSION/style.css";
+```
+
+### 其他
+
+#### 自定义隐藏
+
+请 fork 代码，按自己需要修改。
+
+或把 CSS 代码直接写在 **v2ex > 设置 > 自定义 CSS** 或 **stylish** 里面。
+
+```css
+@import "https://cdn.jsdelivr.net/gh/v2hot/v2ex-custom-style@VERSION/hide-custom.css";
 ```

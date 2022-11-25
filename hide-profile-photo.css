@@ -1,9 +1,11 @@
 /* 主题列表头像 */
-td:has(> a > img.avatar),
-td:has(> a > img.avatar) + td {
-  display: none !important;
-}
-
+#Main td:has(> a > img.avatar),
+#Main td:has(> a > img.avatar) + td,
+/* 右侧栏 */
+#TopicsHot td:has(> a > img.avatar),
+#TopicsHot td:has(> a > img.avatar) + td,
+#my-recent-topics td:has(> a > img),
+#my-recent-topics td:has(> a > img) + td,
 /* 评论区头像 */
 td:has(> img.avatar),
 td:has(> img.avatar) + td {
