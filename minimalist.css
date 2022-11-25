@@ -1,0 +1,22 @@
+#Wrapper,
+.topic_buttons {
+  background-color: #fff !important;
+  background: unset !important;
+}
+
+.box,
+#Main .box,
+#Top,
+#Tabs,
+#Wrapper {
+  box-shadow: unset !important;
+  background-image: unset !important;
+}
+
+.cell,
+.box,
+.super.button,
+div[style*="border"] {
+  border: unset !important;
+  background-image: unset !important;
+}
