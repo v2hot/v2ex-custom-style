@@ -33,6 +33,12 @@ V2EX 自定义样式 🌈
 @import "https://cdn.jsdelivr.net/gh/v2hot/v2ex-custom-style@VERSION/sticky-header.css";
 ```
 
+#### 搜索框 like `command` + `k`
+
+```css
+@import "https://cdn.jsdelivr.net/gh/v2hot/v2ex-custom-style@VERSION/search.css";
+```
+
 #### 隐藏广告
 
 ```css
