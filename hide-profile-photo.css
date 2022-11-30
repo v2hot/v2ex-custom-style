@@ -1,6 +1,6 @@
 /* 主题列表头像 */
 #Main td:has(> a > img.avatar),
-#Main td:has(> a > img.avatar) + td,
+#Main td:has(> a > img.avatar) + td[width="10"],
 /* 右侧栏 */
 #TopicsHot td:has(> a > img.avatar),
 #TopicsHot td:has(> a > img.avatar) + td,
