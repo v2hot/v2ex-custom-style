@@ -5,7 +5,9 @@
 #search-container #search {
   opacity: 0;
 }
-
+#search-container::before {
+  left: 10px;
+}
 #search-container:has(input:focus) {
   position: fixed;
   left: 0px;

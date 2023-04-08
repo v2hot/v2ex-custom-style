@@ -1,6 +1,9 @@
+* {
+  box-shadow: unset !important;
+}
+
 #Wrapper,
 .topic_buttons {
-  background-color: #fff !important;
   background: unset !important;
 }
 
@@ -8,9 +11,10 @@
 #Main .box,
 #Top,
 #Tabs,
-#Wrapper {
-  box-shadow: unset !important;
+#Wrapper,
+#Bottom {
   background-image: unset !important;
+  border: none !important;
 }
 
 .cell,
@@ -19,4 +23,12 @@
 div[style*="border"] {
   border: unset !important;
   background-image: unset !important;
+}
+
+.count_livid {
+  padding: 0 !important;
+  margin-right: 0 !important;
+  color: #999 !important;
+  font-family: "Bender" !important;
+  background-color: unset !important;
 }
