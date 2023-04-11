@@ -2,11 +2,6 @@
   box-shadow: unset !important;
 }
 
-#Wrapper,
-.topic_buttons {
-  background: unset !important;
-}
-
 .box,
 #Main .box,
 #Top,
@@ -20,6 +15,7 @@
 .cell,
 .box,
 .super.button,
+.topic_buttons,
 div[style*="border"] {
   border: unset !important;
   background-image: unset !important;
@@ -31,4 +27,27 @@ div[style*="border"] {
   color: #999 !important;
   font-family: "Bender" !important;
   background-color: unset !important;
+}
+
+body #Wrapper {
+  background-color: #fff;
+  --topic-link-color: #444444;
+  --topic-link-hover-color: #217dfc;
+}
+body #Wrapper.Night {
+  background-color: var(--box-background-color);
+  --topic-link-color: #9caec7;
+  --topic-link-hover-color: #a9bcd6;
+}
+
+a.topic-link:active,
+a.topic-link:link {
+  color: var(--topic-link-color);
+}
+a.topic-link:hover {
+  color: var(--topic-link-hover-color);
+}
+
+img {
+  max-width: 100%;
 }
