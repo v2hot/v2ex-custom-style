@@ -1,5 +1,6 @@
 * {
   box-shadow: unset !important;
+  text-shadow: unset !important;
 }
 
 .box,
@@ -33,11 +34,15 @@ body #Wrapper {
   background-color: #fff;
   --topic-link-color: #444444;
   --topic-link-hover-color: #217dfc;
+  --primary-button-fill-color: #217dfc;
+  --primary-button-text-color: #fff;
 }
 body #Wrapper.Night {
   background-color: var(--box-background-color);
   --topic-link-color: #9caec7;
   --topic-link-hover-color: #a9bcd6;
+  --primary-button-fill-color: #217dfc;
+  --primary-button-text-color: #fff;
 }
 
 a.topic-link:active,
@@ -50,4 +55,25 @@ a.topic-link:hover {
 
 img {
   max-width: 100%;
+}
+
+body .super.button {
+  background-color: var(--primary-button-fill-color);
+  color: var(--primary-button-text-color);
+  font-weight: 400;
+  border: transparent;
+  border-radius: 4px;
+}
+
+body .super.button + .super.button {
+  border-left: 1px solid #ffffff40 !important;
+}
+
+body .super.button:not(.disable_now):hover,
+body .super.button:hover:enabled {
+  background-color: var(--primary-button-fill-color) !important;
+  opacity: 85%;
+  color: var(--primary-button-text-color) !important;
+  font-weight: 400;
+  text-shadow: unset !important;
 }
