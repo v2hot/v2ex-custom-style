@@ -52,3 +52,7 @@ body:has(input:focus) #Tabs {
     visibility: hidden;
   }
 }
+
+* {
+  scroll-margin-top: 44px;
+}
